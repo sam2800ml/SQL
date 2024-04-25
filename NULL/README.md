@@ -1,6 +1,6 @@
 Hay casos donde los datos nulos pueden llegar a generar problemas, como hay otros donde se requieren esos datos nulos
 
-```bash
+```sql
 SELECT column, another_column, …
 FROM mytable
 WHERE column IS/IS NOT NULL

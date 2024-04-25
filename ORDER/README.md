@@ -1,6 +1,6 @@
 Orden de ejecucion
 
-```bash
+```sql
 SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
 FROM mytable
     JOIN another_table

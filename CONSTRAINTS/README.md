@@ -3,7 +3,7 @@ REGLAS Y RESTRICCIONES
 Como en una base de datos tenemos mucha informacion, y dependiendo de la base de datos se puede demorar mucho entraer toda la informacion por lo cual hay que filtrar para asegurarnos de traer solo la informacion necesaria
 
 Para eso usamos la clausula **WHERE**.
-```bash
+```sql
 SELECT column, another_column, …
 FROM mytable
 WHERE condition
@@ -22,7 +22,7 @@ En este caso de las restricciones que se tienen  en cuenta son:
 - "NOT LIKE" todo lo contrario a LIKE
 - "%" si se tiene al comienzo y al final de las comillas con la palabra traera todas las que coincidan con estas
 
-```bash
+```sql
 Select query with constraints
 SELECT column, another_column, …
 FROM mytable
